@@ -1,0 +1,126 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color:rgb(48, 49, 49);
+    padding: 16px 0px;
+    color: aliceblue;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.artigos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigos article img {
+    /* height: 180px; */
+    width: 100%;
+}
+
+.artigos article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+    margin: 0px;
+}
+
+section h2, 
+.artigos article {
+    margin-bottom: 16px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+.artigos article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.artigos article a {
+    background-color: blue;
+    color: aliceblue;
+    padding: 3px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-top: 8px;
+}
+
+.artigos article a:hover {
+    text-decoration: underline;
+}
+
+
+.artigos article p,
+.artigos article a {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#esportes {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#esportes .artigos article a {
+    background-color: rgba(0, 255, 0, 0.8);
+    color: black;
+}
+
+#economia {
+    background-color:wheat;
+}
+
+#economia .artigos article a{
+    background-color: yellow;
+    color: black;
+}
+
+#tecnologia {
+    background-color: rgba(13, 100, 0, 0.1);
+}
+
+#tecnologia .artigos article a{
+    background-color: rgba(43, 100, 0, 0.1);
+    color: black;
+}
+
+#politica {
+    background-color: rgba(255, 50, 130, 0.1);
+}
+
+#politica .artigos article a{
+    background-color: rgba(255, 60, 55, 0.1);
+    color: black;
+}
